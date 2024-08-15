@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="hierarchy_test.HierarchyNavigationTest" />
+			<class name="hierarchy_test.ViewPageTest" />
+			<class name="hierarchy_test.EditPageCoverageTest" />
+			<class name="hierarchy_test.ViewPageCoverageTest" />
+			<class name="hierarchy_test.CreateTest" />
+		</classes>
+
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
